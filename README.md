@@ -10,12 +10,12 @@
 
 ### Welcome
 
-<img src="https://raw.githubusercontent.com/ewantindale/photo-gallery-laravel/master/screenshots/photo-gallery-laravel1.png">
+<img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/photo-gallery-laravel1.png">
 
 ### Gallery
 
-<img src="https://raw.githubusercontent.com/ewantindale/photo-gallery-laravel/master/screenshots/photo-gallery-laravel2.png">
+<img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/photo-gallery-laravel2.png">
 
 ### Add Photo
 
-<img src="https://raw.githubusercontent.com/ewantindale/photo-gallery-laravel/master/screenshots/photo-gallery-laravel3.png">
+<img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/photo-gallery-laravel3.png">
