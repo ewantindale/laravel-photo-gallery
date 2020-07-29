@@ -16,6 +16,10 @@
 
 <img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/photo-gallery-laravel2.png">
 
+### Single Photo Page
+
+<img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/photo-gallery-laravel4.png">
+
 ### Add Photo
 
 <img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/photo-gallery-laravel3.png">

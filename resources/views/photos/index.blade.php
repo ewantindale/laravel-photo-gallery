@@ -17,15 +17,12 @@
       <div class="card-group">
         @foreach($photos as $photo)
         <div class="card">
-          <img class="card-img-top" src="{{$photo->image}}" alt="{{$photo->description}}">
+          <a href="/photos/{{$photo->id}}"><img class="card-img-top" src="{{$photo->image}}" alt="{{$photo->description}}"></a>
+          
           <div class="card-body">
             <h5 class="card-title">{{$photo->title}}</h5>
             <p class="card-text">{{$photo->description}}</p>
             <p class="card-text text-muted">{{$photo->created_at}}</p>
-            {!!Form::open(['action' => ['PhotosController@destroy', $photo->id], 'method' => 'POST', 'class' => 'float-right'])!!}
-              {{Form::hidden('_method', 'DELETE')}}
-              {{Form::submit('Delete', ['class' => 'btn btn-outline-danger'])}}
-            {!!Form::close()!!}
           </div>
         </div>
       @endforeach
