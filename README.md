@@ -1,8 +1,9 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
-
 # Laravel Photo Gallery
 
+[:star:Live Demo:star:](http://photogallery.eu-west-2.elasticbeanstalk.com)
+
 -   Built with Laravel and Bootstrap
+-   Deployed using AWS Elastic Beanstalk
 -   Uses MySQL database hosted on Amazon RDS
 -   Uses Amazon S3 to store images
 
@@ -14,7 +15,7 @@
 
 ### Gallery
 
-<img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/photo-gallery-laravel2.png">
+<img src="https://raw.githubusercontent.com/ewantindale/laravel-photo-gallery/master/screenshots/PhotoGallery.png">
 
 ### Single Photo Page
 
