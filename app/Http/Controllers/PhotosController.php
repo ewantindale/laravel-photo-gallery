@@ -53,7 +53,8 @@ class PhotosController extends Controller
         $photo->title = $request->input('title');
         $photo->description = $request->input('description');
         $photo->user_id = 0; // $photo->user_id = auth()->user()->id; // replace with this once we implement login/authentication
-        $photo->image = Storage::disk('s3')->url($image_path);
+        $photo->url = Storage::disk('s3')->url($image_path);
+        $photo->filename = $fileNameToStore;
         $photo->save();
 
         return redirect('/photos')->with('success', 'Photo Added');
@@ -105,7 +106,7 @@ class PhotosController extends Controller
     {
         $photo = Photo::find($id);
 
-        Storage::delete($photo->image);
+        Storage::disk('s3')->delete('images/'.$photo->filename);
 
         $photo->delete();
         return redirect('/photos')->with('success', 'Photo deleted');

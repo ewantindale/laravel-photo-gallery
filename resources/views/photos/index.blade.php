@@ -17,7 +17,7 @@
       <div class="card-columns">
         @foreach($photos as $photo)
           <div class="card">
-            <a href="/photos/{{$photo->id}}"><img class="card-img-top" src="{{$photo->image}}" alt="{{$photo->description}}"></a>
+            <a href="/photos/{{$photo->id}}"><img class="card-img-top" src="{{$photo->url}}" alt="{{$photo->description}}"></a>
             
             <div class="card-body">
               <h5 class="card-title">{{$photo->title}}</h5>

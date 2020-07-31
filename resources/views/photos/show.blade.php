@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-  <img src="{{$photo->image}}" class="img-fluid my-5">
+  <img src="{{$photo->url}}" class="img-fluid my-5">
   <h5 class="text-muted float-right">{{$photo->created_at}}</h5>
   <h1>{{$photo->title}}</h1>
   <h5>{{$photo->description}}</h5>
