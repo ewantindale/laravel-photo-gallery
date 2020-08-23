@@ -1,6 +1,6 @@
 # Laravel Photo Gallery
 
-[:star:Live Demo on AWS:star:](http://photogallery.eu-west-2.elasticbeanstalk.com)
+
 
 -   Built with Laravel and Bootstrap
 -   Deployed using AWS Elastic Beanstalk
